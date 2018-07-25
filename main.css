@@ -1,0 +1,110 @@
+html {
+  background-color: #F5F5F5;
+}
+body {
+  margin: 0 auto;
+  font: 100% Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  line-height: 1.5;
+  max-width: 960px;
+  min-width: 640px;
+  width: 80%;
+  padding: 10px 15px 10px;
+
+}
+h1,h2,h3,h4,h6,p,a {
+  color: #3b4348;
+}
+.small {
+  font-variant: small-caps;
+}
+a:link {
+  color: #235ea7;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover, 
+a:focus {
+  color: deeppink;
+}
+/*a:active {}*/
+li {
+  font-size: 1.3em;
+}
+ol,ul,li {
+ list-style: none
+}
+.foto-autor,
+.navbar {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar ul {
+  display: table;
+  table-layout: fixed;
+  padding: 0;
+}
+.navbar li {
+  width: 25%;
+  display: table-cell;
+  text-align: center;
+  letter-spacing: .1em;
+}
+li.logro {
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  font-variant: small-caps; 
+}
+li.centro {
+  text-transform: capitalize;
+}
+li.duracion{
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+}
+h1 {
+  font-size: 2.3em;
+}
+h2 {
+  font-size: 1.7em;
+} 
+p {
+  font-size: 1.4em;
+}
+.bio p {
+  text-align: left;
+}
+.contacto {
+  margin-left: 450px;
+}
+.contacto li#tel {
+  list-style-image: url(../_img/phone-gold-32.png);
+}
+.contacto li#mail {
+  list-style-image: url(../_img/mail-gold-32.png)
+}
+.contacto li#twitter {
+  list-style-image: url(../_img/005-twitter-32.png);
+}
+.contacto li#linkedin {
+  list-style-image: url(../_img/004-linkedin-sign-32.png);
+}
+.box:not(top-box) {
+  margin-top: 2.5em;
+}
+.bio {
+  padding: 1em;
+}
+iframe {
+  float: left;
+  margin-bottom: 42px;
+}
+.top li {
+  list-style-image: url(../_img/up-deeppink-32.png);
+}
+.copy {
+  font-size: 1.1rem;
+}
+footer {
+  clear: both;
+}
